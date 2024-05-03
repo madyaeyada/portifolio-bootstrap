@@ -1,0 +1,498 @@
+:root{
+    --primary-color:#20c997;
+ }
+ *{
+    text-decoration: none;
+     margin: 0; padding: 0;
+
+ } body{
+  overflow-x: hidden;
+ }
+ header{
+    background-image:url('img/bb.jpg');
+    background-position:center;
+    background-size:cover;
+    height: 400px; 
+    /* margin-bottom: 40px; */
+ }
+ .min{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+ }
+.light-gray{
+    color: rgb(205, 203, 203);
+     font-weight: 500;
+    }
+ main::after{
+    content: '';
+    height: 500px;
+    width: 100%;
+    background-color: rgba(23, 22, 22, 0.668);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+ }
+ .setting-ico {
+    background-color: #555;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 2000;
+}
+.H h1::after {
+    content: "";
+    animation: mado infinite alternate 7s !important;
+    -webkit-animation: said infinite alternate 7s;
+}
+
+@keyframes said {
+  0% {
+    content: "Free";
+  }
+  2% {
+    content: "Fre|";
+  }
+  4% {
+    content: "Fr";
+  }
+  6% {
+    content: "F";
+  }
+  8% {
+    content: "|";
+  }
+  10% {
+    content: "";
+  }
+  12% {
+    content: "S|";
+  }
+  14% {
+    content: "Se";
+  }
+  16% {
+    content: "Sen|";
+  }
+  18% {
+    content: "Seni";
+  }
+  20% {
+    content: "Senio|";
+  }
+  22% {
+    content: "Senior";
+  }
+  24% {
+    content: "Senior |";
+  }
+  26% {
+    content: "Senior F";
+  }
+  28% {
+    content: "Senior Fr|";
+  }
+  30% {
+    content: "Senior Fro";
+  }
+  32% {
+    content: "Senior Fron|";
+  }
+  34% {
+    content: "Senior Front";
+  }
+
+  36% {
+    content: "Senior Front |";
+  }
+  38% {
+    content: "Senior Front e";
+  }
+  40% {
+    content: "Senior Front en|";
+  }
+  42% {
+    content: "Senior Front end";
+  }
+  44% {
+    content: "Senior Front|";
+  }
+  46% {
+    content: "Senior Fron";
+  }
+  48% {
+    content: "Senior Fro|";
+  }
+  50% {
+    content: "Senior Fr";
+  }
+  52% {
+    content: "Senior F|";
+  }
+  54% {
+    content: "Senior ";
+  }
+  56% {
+    content: "Senior|";
+  }
+  58% {
+    content: "";
+  }
+  60% {
+    content: "S|";
+  }
+  62% {
+    content: "SA";
+  }
+  64% {
+    content: "SAI|";
+  }
+  66% {
+    content: "SAID";
+  }
+  68% {
+    content: "SAIDE|";
+  }
+  70% {
+    content: "SAIDEL";
+  }
+  72% {
+    content: "SAIDELH|";
+  }
+  74% {
+    content: "SAIDELHO";
+  }
+  76% {
+    content: "SAIDELHOS|";
+  }
+  78% {
+    content: "SAIDELHOSI";
+  }
+  80% {
+    content: "SAIDELHOSIN|";
+  }
+  82% {
+    content: "SAIDELHOSINY";
+  }
+  84% {
+    content: "SAIDELHOSIN|";
+  }
+  86% {
+    content: "SAIDELHOSI";
+  }
+  88% {
+    content: "SAIDELHOS|";
+  }
+  90% {
+    content: "SAIDELHO";
+  }
+  92% {
+    content: "SAIDELH|";
+  }
+  94% {
+    content: "SAIDEL";
+  }
+  96% {
+    content: "SAIDE|";
+  }
+  98% {
+    content: "SAID";
+  }
+  100% {
+    content: "SAI|";
+  }
+}
+@keyframes mado{
+    0%{content:"free|";}
+    2%{ content:"fre|";}
+    3%{ content:"fr|";}
+    5%{ content:"f|";}
+    8%{ content:"|";}
+    9%{ content:"s|";}
+    10%{ content:"se|";}
+    12%{ content:"sen|";}
+    14%{ content:"seni|";}
+    15%{ content:"senio|";}
+    16%{ content:"senio f|";}
+    18%{ content:"senio fr|";}
+    20%{ content:"senio fro|";}
+    22%{ content:"senio fron|";}
+    24%{ content:"senio front|";}
+    26%{ content:"senio front e|";}
+    29%{ content:"senio front en|";}
+    30%{ content:"senio front end|";}
+    33%{ content:"senio front en|";}
+    34%{ content:"senio front e|";}
+    35%{ content:"senio front |";}
+    36%{ content:"senio front|";}
+    37%{ content:"senio fron|";}
+    39%{ content:"senio fro|";}
+    40%{ content:"senio fr|";}
+    42%{ content:"senio f|";}
+    43%{ content:"senio |";}
+    44%{ content:"senio|";}
+    45%{ content:"seni|";}
+    46%{ content:"sen|";}
+    48%{ content:"s|";}
+    49%{ content:"";}
+    50%{ content:"s|";}
+    52%{ content:"se|";}
+    53%{ content:"sen|";}
+    54%{ content:"seni|";}
+    55%{ content:"senio|";}
+    50%{ content:"senior|";}
+    60%{ content:"s|";}
+    65%{ content:"sa|";}
+    70%{ content:"sai|";}
+    75%{ content:"said|";}
+    80%{ content:"saidE|";}
+    85%{ content:"saidEl|";}
+    90%{ content:"saidElHo|";}
+    92%{ content:"saidElHos|";}
+    94%{ content:"saidElHosa|";} 
+    95%{ content:"saidElHosan|";} 
+    100%{ content:"saidElHosani|";}    
+
+
+
+    
+
+}
+ nav{
+    z-index: 20;
+ }
+ .navbar-nav a:hover
+ {
+    color:var(--primary-color) !important;
+ }
+section{
+    padding: 30px 0;
+    margin:50px 0 20px 0px; 
+
+}
+.bg-babyBl:hover{
+    color: white !important;
+    background-color: var(--primary-color) ;
+}
+/* sec about */
+.text-center{
+    position: relative;
+}
+.text-center h1{
+    position: relative;
+    font-size: 105px;
+    color: rgb(211, 209, 209);
+}
+.text-center .title{
+    position: absolute;
+    left:50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+    font-weight: 700;
+    padding: .8%;
+    
+}
+.text-center .title::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color:var(--primary-color);
+    left:50%;
+    bottom:1%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.caption , .information{ 
+    width: calc(100% - 20px / 2);
+
+}.caption{
+    line-height: 24px;
+    font-size: 19px;
+    color: rgb(56, 55, 55);
+}
+.information label{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    color: black ;
+}
+.information label:not(:last-child){
+    border-bottom: 1px solid gray;
+
+}
+.information label bold{
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+    margin-right: 5px;
+    position: relative;
+
+
+}.primary-color{
+    color: var(--primary-color) !important;
+}
+.primary-bg-color{
+    background-color: var(--primary-color) !important;
+}
+.btn-primary-color,.btn-border{
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 50px !important;
+    display:inline-block;
+}
+.btn-primary-color{    
+       background-color: var(--primary-color);
+        color: white;
+        
+}
+.information .btn-primary-color{ 
+/* margin-top: 170px !important;  */
+transform: translate(-17px,79px)  !important;
+   
+}
+.btn-border{
+ border: 1px solid gray;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%,50px);
+ margin-bottom: 30px;
+
+}
+.btn-border:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.btn-primary-color:hover{
+    background-color: rgb(4, 40, 4);
+
+}
+.num{
+    width: 100%;
+    gap: 20px;
+   margin: auto;
+   text-align: center;
+}
+.numb{
+    width: calc(100% - 60px / 4);
+    font-size: 21px;
+}
+.numb span{
+    font-weight: 700;
+    color: rgb(61, 60, 60);
+}
+.numb:not(:last-child) {
+    border-right: 1px gray solid !important;
+}
+/* service */
+.service{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.serv{
+    width: calc(100% - 10px / 2);
+    display: flex;
+    align-items: first baseline;
+}
+.serv i{
+    color: var(--primary-color);
+    margin:0 10px;
+    font-size: 19px;
+    
+}
+.serv p{
+    margin-top: 5px;
+    color: rgb(94, 93, 93);
+    font-size: 18px;
+}
+/* education summaery */
+#summaery{
+    position: relative;
+}
+.education{
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    padding: 25px;
+}
+.education span{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.progr{
+    position: relative;
+}
+.progr p{
+    margin-left: 20px;
+    font-weight: 700;
+
+}.progr p span{ 
+ left: 100%;
+ transform: translateX(-100%);
+ position: absolute;
+}
+.progress{
+margin-bottom: 27px;
+}
+/* portifolo */
+.img1{
+    position: relative;
+
+}
+.img-hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    background-color: rgba(30, 30, 30, 0.567);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.img-hover:hover{
+    opacity: 1;
+}
+/* <!---- section Client Speak -->
+ */
+ .light-blue{
+   background-color:#f8f9fa;
+   color: black;
+   padding-bottom: 20px !important;
+ }
+ .indicat{
+    position: absolute;
+    left: 46%;
+    bottom: -47px;
+    margin: auto;
+    transform: translatey(20px,-100px) !important;
+    display: inline-block;
+ }
+ .indicat *button{
+  margin-top: 30px;
+ }
